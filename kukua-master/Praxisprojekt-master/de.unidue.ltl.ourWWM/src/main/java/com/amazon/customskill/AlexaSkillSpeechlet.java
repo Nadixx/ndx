@@ -157,14 +157,14 @@ implements SpeechletV2
 
 	private void selectQuestionQuizeinfach() {
 		switch(sum){
-		case 0: question = "Hallo bedeutet auf englisch hello. Sage hallo auf englisch."; correctAnswer = "hello"; break;
-		case 50: question = "baum bedeutet auf englisch tree. Sage baum auf englisch."; correctAnswer = "tree"; break;
-		case 100: question = "jetzt bedeutet auf englisch now. Sage jetzt auf englisch."; correctAnswer = "now"; break;
-		case 200: question = "vielleicht bedeutet auf englisch maybe. Sage vielleicht auf englisch."; correctAnswer = "maybe"; break;
-		case 300: question = "heute bedeutet auf englisch today. Sage heute auf englisch."; correctAnswer = "today"; break;
-		case 500: question = "Frage?"; correctAnswer = "today"; break;
-		case 1000: question = "Frage?"; correctAnswer = "today"; break;
-		case 2000: question = "Frage?"; correctAnswer = "today"; break;
+		case 0: question = "Was bedeutet hallo auf englisch?"; correctAnswer = "hello"; break;
+		case 50: question = "Was bedeutet Baum auf englisch?"; correctAnswer = "tree"; break;
+		case 100: question = "Was bedeutet jetzt auf englisch?"; correctAnswer = "now"; break;
+		case 200: question = "Was bedeutet vielleicht auf englisch?"; correctAnswer = "maybe"; break;
+		case 300: question = "Was bedeutet heute auf englisch?"; correctAnswer = "today"; break;
+		case 500: question = "Was bedeutet Hand auf englisch?"; correctAnswer = "hand" ; break;
+		case 1000: question = "Was bedeutet Haare auf englisch?"; correctAnswer = "hair"; break;
+		case 2000: question = "Was bedeutet Bein auf englisch?"; correctAnswer = "leg"; break;
 		case 4000: question = "Frage?"; correctAnswer = "today"; break;
 		case 8000: question = "Frage?"; correctAnswer = "today"; break;
 		case 16000: question = "Frage?"; correctAnswer = "today"; break;
@@ -177,15 +177,15 @@ implements SpeechletV2
 
 	private void selectQuestionQuizmittel() {
 		switch(sum){
-		case 0: question = "Hallo bedeutet auf englisch hello. Sage hallo auf englisch."; correctAnswer = "hello"; break;
-		case 50: question = "baum bedeutet auf englisch tree. Sage baum auf englisch."; correctAnswer = "tree"; break;
-		case 100: question = "jetzt bedeutet auf englisch now. Sage jetzt auf englisch."; correctAnswer = "now"; break;
-		case 200: question = "vielleicht bedeutet auf englisch maybe. Sage vielleicht auf englisch."; correctAnswer = "maybe"; break;
-		case 300: question = "heute bedeutet auf englisch today. Sage heute auf englisch."; correctAnswer = "today"; break;
-		case 500: question = "Frage?"; correctAnswer = "today"; break;
-		case 1000: question = "Frage?"; correctAnswer = "today"; break;
-		case 2000: question = "Frage?"; correctAnswer = "today"; break;
-		case 4000: question = "Frage?"; correctAnswer = "today"; break;
+		case 0: question = "Was bedeutet Reifen auf englisch?"; correctAnswer = "wheel"; break;
+		case 50: question = "Was bedeutet Bauchnabel auf englisch?"; correctAnswer = "bellybutton"; break;
+		case 100: question = "Was bedeutet Treppe auf englisch?"; correctAnswer = "stairs"; break;
+		case 200: question = "Was bedeutet Feld auf englisch?"; correctAnswer = "field"; break;
+		case 300: question = "Was heiﬂt gebrochen auf englisch?"; correctAnswer = "broken"; break;
+		case 500: question = "Was heiﬂt Mikrowelle auf englisch?"; correctAnswer = "microwave"; break;
+		case 1000: question = "Was heiﬂt aufgeben auf englisch?"; correctAnswer = "give up"; break;
+		case 2000: question = "Was heiﬂt Gemeinschaft auf englisch?"; correctAnswer = "community"; break;
+		case 4000: question = "Was heiﬂt Sturm auf englisch?"; correctAnswer = "gale"; break;
 		case 8000: question = "Frage?"; correctAnswer = "today"; break;
 		case 16000: question = "Frage?"; correctAnswer = "today"; break;
 		case 32000: question = "Frage?"; correctAnswer = "today"; break;
@@ -196,12 +196,12 @@ implements SpeechletV2
 	}
 	private void selectQuestionQuizschwer() {
 		switch(sum){
-		case 0: question = "Hallo bedeutet auf englisch hello. Sage hallo auf englisch."; correctAnswer = "hello"; break;
-		case 50: question = "baum bedeutet auf englisch tree. Sage baum auf englisch."; correctAnswer = "tree"; break;
-		case 100: question = "jetzt bedeutet auf englisch now. Sage jetzt auf englisch."; correctAnswer = "now"; break;
-		case 200: question = "vielleicht bedeutet auf englisch maybe. Sage vielleicht auf englisch."; correctAnswer = "maybe"; break;
-		case 300: question = "heute bedeutet auf englisch today. Sage heute auf englisch."; correctAnswer = "today"; break;
-		case 500: question = "Frage?"; correctAnswer = "today"; break;
+		case 0: question = "Was bedeutet rechthaberisch auf englisch?"; correctAnswer = "bossy"; break;
+		case 50: question = "Was bedeutet Vertreter auf englisch?"; correctAnswer = "representative"; break;
+		case 100: question = "Was bedeutet flieﬂend auf englisch?"; correctAnswer = "fluently"; break;
+		case 200: question = "Was bedeutet launisch auf englisch?"; correctAnswer = "moody"; break;
+		case 300: question = "Was bedeutet Schwiegermutter auf englisch?"; correctAnswer = "mother in law"; break;
+		case 500: question = "Was bedeutet Mittelschicht auf englisch?"; correctAnswer = "middle class"; break;
 		case 1000: question = "Frage?"; correctAnswer = "today"; break;
 		case 2000: question = "Frage?"; correctAnswer = "today"; break;
 		case 4000: question = "Frage?"; correctAnswer = "today"; break;
